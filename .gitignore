@@ -6,3 +6,7 @@ __pycache__/
 student_data.json
 .streamlit/
 *.csv
+.venv/
+.vscode/
+*.xlsx
+~$*
