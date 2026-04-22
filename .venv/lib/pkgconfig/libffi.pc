@@ -1,0 +1,11 @@
+prefix=/home/shakeeb/Desktop/honhar aoo/Honhaar-app-main/.venv
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+toolexeclibdir=${libdir}
+includedir=/home/shakeeb/Desktop/honhar aoo/Honhaar-app-main/.venv/include
+
+Name: libffi
+Description: Library supporting Foreign Function Interfaces
+Version: 3.4.4
+Libs: -L${toolexeclibdir} -lffi
+Cflags: -I${includedir}

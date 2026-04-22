@@ -1,0 +1,11 @@
+prefix=/home/shakeeb/Desktop/honhar aoo/Honhaar-app-main/.venv
+exec_prefix=/home/shakeeb/Desktop/honhar aoo/Honhaar-app-main/.venv
+libdir=/home/shakeeb/Desktop/honhar aoo/Honhaar-app-main/.venv/lib
+includedir=/home/shakeeb/Desktop/honhar aoo/Honhaar-app-main/.venv/include
+
+Name: uuid
+Description: Universally unique id library
+Version: 2.32.1
+Requires:
+Cflags: -I${includedir}/uuid
+Libs: -L${libdir} -luuid
